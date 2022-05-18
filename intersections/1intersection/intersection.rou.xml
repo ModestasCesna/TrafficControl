@@ -1,0 +1,28 @@
+<routes>
+	<vType accel="1.0" decel="4.5" id="standard_car" length="5.0" minGap="2.5" maxSpeed="25" sigma="0.5" />
+	<route id="W_N" edges="W2TL TL2N"/>
+	<route id="W_E" edges="W2TL TL2E"/>
+	<route id="W_S" edges="W2TL TL2S"/>
+	<route id="N_W" edges="N2TL TL2W"/>
+	<route id="N_E" edges="N2TL TL2E"/>
+	<route id="N_S" edges="N2TL TL2S"/>
+	<route id="E_W" edges="E2TL TL2W"/>
+	<route id="E_N" edges="E2TL TL2N"/>
+	<route id="E_S" edges="E2TL TL2S"/>
+	<route id="S_W" edges="S2TL TL2W"/>
+	<route id="S_N" edges="S2TL TL2N"/>
+	<route id="S_E" edges="S2TL TL2E"/>
+
+	<flow id="flow_wn" route="W_N" begin="0" end="1000000" probability="0.031" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_we" route="W_E" begin="0" end="1000000" probability="0.027" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_ws" route="W_S" begin="0" end="1000000" probability="0.035" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_nw" route="N_W" begin="0" end="1000000" probability="0.007" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_ne" route="N_E" begin="0" end="1000000" probability="0.027" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_ns" route="N_S" begin="0" end="1000000" probability="0.007" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_ew" route="E_W" begin="0" end="1000000" probability="0.046" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_en" route="E_N" begin="0" end="1000000" probability="0.023" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_es" route="E_S" begin="0" end="1000000" probability="0.011" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_sw" route="S_W" begin="0" end="1000000" probability="0.022" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_sn" route="S_N" begin="0" end="1000000" probability="0.029" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_se" route="S_E" begin="0" end="1000000" probability="0.030" departSpeed="max" departPos="base" departLane="best"/>
+</routes>

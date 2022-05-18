@@ -1,0 +1,163 @@
+<routes>
+	<vType accel="1.0" decel="4.5" id="standard_car" length="5.0" minGap="2.5" maxSpeed="25" sigma="0.5" />
+
+	<route id="J1_J2" edges="-E0 E1"/>
+	<route id="J1_J11" edges="-E0 E2 E11"/>
+	<route id="J1_J10" edges="-E0 E2 E10"/>
+	<route id="J1_J9_1" edges="-E0 E2 -E7 E9"/>
+	<route id="J1_J9_2" edges="-E0 E3 E6 E9"/>
+	<route id="J1_J8_1" edges="-E0 E2 -E7 E8"/>
+	<route id="J1_J8_2" edges="-E0 E3 E6 E8"/>
+	<route id="J1_J6" edges="-E0 E3 E5"/>
+	<route id="J1_J5" edges="-E0 E3 E4"/>
+
+	<route id="J2_J11" edges="-E1 E2 E11"/>
+	<route id="J2_J10" edges="-E1 E2 E10"/>
+	<route id="J2_J9_1" edges="-E1 E2 -E7 E9"/>
+	<route id="J2_J9_2" edges="-E1 E3 E6 E9"/>
+	<route id="J2_J8_1" edges="-E1 E2 -E7 E8"/>
+	<route id="J2_J8_2" edges="-E1 E3 E6 E8"/>
+	<route id="J2_J6" edges="-E1 E3 E5"/>
+	<route id="J2_J5" edges="-E1 E3 E4"/>
+	<route id="J2_J1" edges="-E1 E0"/>
+
+	<route id="J11_J10" edges="-E11 E10"/>
+	<route id="J11_J9" edges="-E11 -E7 E9"/>
+	<route id="J11_J8" edges="-E11 -E7 E8"/>
+	<route id="J11_J6_1" edges="-E11 -E7 -E6 E5"/>
+	<route id="J11_J6_2" edges="-E11 -E2 E3 E5"/>
+	<route id="J11_J5_1" edges="-E11 -E7 -E6 E4"/>
+	<route id="J11_J5_2" edges="-E11 -E2 E3 E4"/>
+	<route id="J11_J1" edges="-E11 -E2 E0"/>
+	<route id="J11_J2" edges="-E11 -E2 E1"/>
+
+	<route id="J10_J9" edges="-E10 -E7 E9"/>
+	<route id="J10_J8" edges="-E10 -E7 E8"/>
+	<route id="J10_J6_1" edges="-E10 -E7 -E6 E4"/>
+	<route id="J10_J6_2" edges="-E10 -E2 E3 E4"/>
+	<route id="J10_J5_1" edges="-E10 -E7 -E6 E5"/>
+	<route id="J10_J5_2" edges="-E10 -E2 E3 E5"/>
+	<route id="J10_J1" edges="-E10 -E2 E0"/>
+	<route id="J10_J2" edges="-E10 -E2 E1"/>
+	<route id="J10_J11" edges="-E10 E11"/>
+
+	<route id="J9_J8" edges="-E9 E8"/>
+	<route id="J9_J6" edges="-E9 -E6 E5"/>
+	<route id="J9_J5" edges="-E9 -E6 E4"/>
+	<route id="J9_J1_1" edges="-E9 -E6 -E3 E0"/>
+	<route id="J9_J1_2" edges="-E9 E7 -E2 E0"/>
+	<route id="J9_J2_1" edges="-E9 -E6 -E3 E1"/>
+	<route id="J9_J2_2" edges="-E9 E7 -E2 E1"/>
+	<route id="J9_J11" edges="-E9 E7 E11"/>
+	<route id="J9_J10" edges="-E9 E7 E10"/>
+
+	<route id="J8_J6" edges="-E8 -E6 E5"/>
+	<route id="J8_J5" edges="-E8 -E6 E4"/>
+	<route id="J8_J1_1" edges="-E8 -E6 -E3 E0"/>
+	<route id="J8_J1_2" edges="-E8 E7 -E2 E0"/>
+	<route id="J8_J2_1" edges="-E8 -E6 -E3 E1"/>
+	<route id="J8_J2_2" edges="-E8 E7 -E2 E1"/>
+	<route id="J8_J11" edges="-E8 E7 E11"/>
+	<route id="J8_J10" edges="-E8 E7 E10"/>
+	<route id="J8_J9" edges="-E8 E9"/>
+
+	<route id="J6_J5" edges="-E5 E4"/>
+	<route id="J6_J1" edges="-E5 -E3 E0"/>
+	<route id="J6_J2" edges="-E5 -E3 E1"/>
+	<route id="J6_J11_1" edges="-E5 -E3 E2 E11"/>
+	<route id="J6_J11_2" edges="-E5 E6 E7 E11"/>
+	<route id="J6_J10_1" edges="-E5 -E3 E2 E10"/>
+	<route id="J6_J10_2" edges="-E5 E6 E7 E10"/>
+	<route id="J6_J9" edges="-E5 E6 E9"/>
+	<route id="J6_J8" edges="-E5 E6 E8"/>
+
+	<route id="J5_J1" edges="-E4 -E3 E0"/>
+	<route id="J5_J2" edges="-E4 -E3 E1"/>
+	<route id="J5_J11_1" edges="-E4 -E3 E2 E11"/>
+	<route id="J5_J11_2" edges="-E4 E6 E7 E11"/>
+	<route id="J5_J10_1" edges="-E4 -E3 E2 E10"/>
+	<route id="J5_J10_2" edges="-E4 E6 E7 E10"/>
+	<route id="J5_J9" edges="-E4 E6 E9"/>
+	<route id="J5_J8" edges="-E4 E6 E8"/>
+	<route id="J5_J6" edges="-E4 E5"/>
+
+	<flow id="flow_J1_J2" route="J1_J2" begin="0" end="1000000" 		probability="0.0124" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J1_J11" route="J1_J11" begin="0" end="1000000" 		probability="0.0104" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J1_J10" route="J1_J10" begin="0" end="1000000" 		probability="0.0140" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J1_J9_1" route="J1_J9_1" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J1_J9_2" route="J1_J9_2" begin="0" end="1000000" 	probability="0.0102" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J1_J8_1" route="J1_J8_1" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J1_J8_2" route="J1_J8_2" begin="0" end="1000000" 	probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J1_J6" route="J1_J6" begin="0" end="1000000" 		probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J1_J5" route="J1_J5" begin="0" end="1000000" 		probability="0.0044" departSpeed="max" departPos="base" departLane="best"/>
+
+	<flow id="flow_J2_J11" route="J2_J11" begin="0" end="1000000" 		probability="0.0124" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J2_J10" route="J2_J10" begin="0" end="1000000" 		probability="0.0104" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J2_J9_1" route="J2_J9_1" begin="0" end="1000000" 	probability="0.0140" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J2_J9_2" route="J2_J9_2" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J2_J8_1" route="J2_J8_1" begin="0" end="1000000" 	probability="0.0108" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J2_J8_2" route="J2_J8_2" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J2_J6" route="J2_J6" begin="0" end="1000000" 		probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J2_J5" route="J2_J5" begin="0" end="1000000" 		probability="0.0092" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J2_J1" route="J2_J1" begin="0" end="1000000" 		probability="0.0044" departSpeed="max" departPos="base" departLane="best"/>
+
+	<flow id="flow_J11_J10" route="J11_J10" begin="0" end="1000000" 	probability="0.0124" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J11_J9" route="J11_J9" begin="0" end="1000000" 		probability="0.0104" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J11_J8" route="J11_J8" begin="0" end="1000000" 		probability="0.0140" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J11_J6_1" route="J11_J6_1" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J11_J6_2" route="J11_J6_2" begin="0" end="1000000" 	probability="0.0108" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J11_J5_1" route="J11_J5_1" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J11_J5_2" route="J11_J5_2" begin="0" end="1000000" 	probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J11_J1" route="J11_J1" begin="0" end="1000000" 		probability="0.0092" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J11_J2" route="J11_J2" begin="0" end="1000000" 		probability="0.0044" departSpeed="max" departPos="base" departLane="best"/>
+
+	<flow id="flow_J10_J9" route="J10_J9" begin="0" end="1000000" 		probability="0.0124" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J10_J8" route="J10_J8" begin="0" end="1000000" 		probability="0.0104" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J10_J6_1" route="J10_J6_1" begin="0" end="1000000" 	probability="0.0140" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J10_J6_2" route="J10_J6_2" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J10_J5_1" route="J10_J5_1" begin="0" end="1000000" 	probability="0.0108" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J10_J5_2" route="J10_J5_2" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J10_J1" route="J10_J1" begin="0" end="1000000" 		probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J10_J2" route="J10_J2" begin="0" end="1000000" 		probability="0.0092" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J10_J11" route="J10_J11" begin="0" end="1000000" 	probability="0.0044" departSpeed="max" departPos="base" departLane="best"/>
+
+	<flow id="flow_J9_J8" route="J9_J8" begin="0" end="1000000" 		probability="0.0124" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J9_J6" route="J9_J6" begin="0" end="1000000" 		probability="0.0104" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J9_J5" route="J9_J5" begin="0" end="1000000" 		probability="0.0140" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J9_J1_1" route="J9_J1_1" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J9_J1_2" route="J9_J1_2" begin="0" end="1000000" 	probability="0.0108" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J9_J2_1" route="J9_J2_1" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J9_J2_2" route="J9_J2_2" begin="0" end="1000000" 	probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J9_J11" route="J9_J11" begin="0" end="1000000" 		probability="0.0092" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J9_J10" route="J9_J10" begin="0" end="1000000" 		probability="0.0044" departSpeed="max" departPos="base" departLane="best"/>
+
+	<flow id="flow_J8_J6" route="J8_J6" begin="0" end="1000000" 		probability="0.0124" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J8_J5" route="J8_J5" begin="0" end="1000000" 		probability="0.0104" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J8_J1_1" route="J8_J1_1" begin="0" end="1000000" 	probability="0.0140" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J8_J1_2" route="J8_J1_2" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J8_J2_1" route="J8_J2_1" begin="0" end="1000000" 	probability="0.0108" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J8_J2_2" route="J8_J2_2" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J8_J11" route="J8_J11" begin="0" end="1000000" 		probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J8_J10" route="J8_J10" begin="0" end="1000000" 		probability="0.0092" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J8_J9" route="J8_J9" begin="0" end="1000000" 		probability="0.0044" departSpeed="max" departPos="base" departLane="best"/>
+
+	<flow id="flow_J6_J5" route="J6_J5" begin="0" end="1000000" 		probability="0.0124" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J6_J1" route="J6_J1" begin="0" end="1000000" 		probability="0.0104" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J6_J2" route="J6_J2" begin="0" end="1000000" 		probability="0.0140" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J6_J11_1" route="J6_J11_1" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J6_J11_2" route="J6_J11_2" begin="0" end="1000000" 	probability="0.0108" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J6_J10_1" route="J6_J10_1" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J6_J10_2" route="J6_J10_2" begin="0" end="1000000" 	probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J6_J9" route="J6_J9" begin="0" end="1000000" 		probability="0.0092" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J6_J8" route="J6_J8" begin="0" end="1000000" 		probability="0.0044" departSpeed="max" departPos="base" departLane="best"/>
+
+	<flow id="flow_J5_J1" route="J5_J1" begin="0" end="1000000" 		probability="0.0124" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J5_J2" route="J5_J2" begin="0" end="1000000" 		probability="0.0104" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J5_J11_1" route="J5_J11_1" begin="0" end="1000000" 	probability="0.0140" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J5_J11_2" route="J5_J11_2" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J5_J10_1" route="J5_J10_1" begin="0" end="1000000" 	probability="0.0108" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J5_J10_2" route="J5_J10_2" begin="0" end="1000000" 	probability="0.0056" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J5_J9" route="J5_J9" begin="0" end="1000000" 		probability="0.0184" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J5_J8" route="J5_J8" begin="0" end="1000000" 		probability="0.0092" departSpeed="max" departPos="base" departLane="best"/>
+	<flow id="flow_J5_J6" route="J5_J6" begin="0" end="1000000" 		probability="0.0044" departSpeed="max" departPos="base" departLane="best"/>
+</routes>
